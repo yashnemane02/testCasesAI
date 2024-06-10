@@ -13,28 +13,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.doubtclerance.apis.enitites.SubjectsGradeMapping;
 import com.doubtclerance.apis.enitites.HyperLeap.AssignmentSubjectsGradeMapping;
-import com.doubtclerance.apis.enitites.HyperLeap.GetFollowUpQuestions;
 import com.doubtclerance.apis.repositories.HyperLeap.AssignmentSubjectsGradeMappingRepository;
-import com.doubtclerance.apis.requestDTOs.Hyperleap.CreateConversationRequestDTO;
 import com.doubtclerance.apis.responseDTOs.Hyperleap.GetAssignmentSubjectsGradeMappingResponse;
-import com.doubtclerance.apis.requestDTOs.Hyperleap.GetFollowupMessagesRequest;
-import com.doubtclerance.apis.requestDTOs.Hyperleap.PromptRequestDTO;
 import com.doubtclerance.apis.requestDTOs.Hyperleap.GetAssignmentSubjectsGradeMappingRequest;
-import com.doubtclerance.apis.requestDTOs.Hyperleap.SetViewTypeRequestDto;
-import com.doubtclerance.apis.requestDTOs.Hyperleap.StreamConversationRequestDTO;
-import com.doubtclerance.apis.requestDTOs.Hyperleap.UpdateScore;
-import com.doubtclerance.apis.responseDTOs.Hyperleap.ContinueConversationResponseDTO;
-import com.doubtclerance.apis.responseDTOs.Hyperleap.ConversationResponse;
-import com.doubtclerance.apis.responseDTOs.Hyperleap.CreateConversationResponseDTO;
-import com.doubtclerance.apis.responseDTOs.Hyperleap.GeneralResponse;
-import com.doubtclerance.apis.responseDTOs.Hyperleap.GetAutomatedMessagesResponse;
-import com.doubtclerance.apis.responseDTOs.Hyperleap.GetFollowUpQuestionsResponse;
 import com.doubtclerance.apis.responseDTOs.Hyperleap.GetAssignmentSubjectsGradeMappingResponse;
-import com.doubtclerance.apis.responseDTOs.Hyperleap.GetViewTypeResponseDto;
-import com.doubtclerance.apis.responseDTOs.Hyperleap.PromptResponseDTO;
-import com.doubtclerance.apis.service.HyperleapService;
 import com.doubtclerance.apis.service.AssignmentSubjectService;
 
 import io.swagger.v3.oas.annotations.Operation;
